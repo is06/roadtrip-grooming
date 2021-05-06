@@ -7,7 +7,8 @@ const Breadcrumb = ({ data = defaultData, currentPhase, onChangePhase }) => {
     { name: 'solution', title: 'Solution fonctionnelle', hasRecap: true },
     { name: 'value', title: 'Valeur métier', hasRecap: true },
     { name: 'kpis', title: 'KPIs de succès', hasRecap: true },
-    { name: 'assets', title: 'Assets', hasRecap: true },
+    { name: 'enabler', title: 'Enablers', hasRecap: false },
+    { name: 'assets', title: 'Assets', hasRecap: false },
     { name: 'increments', title: 'Incréments', hasRecap: false },
     { name: 'export', title: 'Exporter / Importer', hasRecap: false },
   ]
